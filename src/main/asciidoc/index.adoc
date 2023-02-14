@@ -1,0 +1,21 @@
+= REST API Guide
+
+This Rest API allows to register and retrieve user details. It expose two services.
+
+== Resources
+
+=== Register a user
+
+.Request Structure
+include::{snippets}/testCreateUser/http-request.adoc[]
+
+.Response
+include::{snippets}/testCreateUser/http-response.adoc[]
+
+=== Display the details of a registered user
+
+.Request Structure
+include::{snippets}/testGetUser/http-request.adoc[]
+
+.response
+include::{snippets}/testGetUser/http-response.adoc[]
